@@ -1,22 +1,22 @@
-package modEstruturasExcepcionais;
-
-public class FormatadorCepExemplo {
-
-    public static void main(String[] args) {
-        try {
-            String cepFormatado = formatarCep("23765064");
-            System.out.println(cepFormatado);
-        } catch (CepInvalidoException e) {
-            e.printStackTrace();
-        }
-    }
-
-
-    public static void main(String[] args) {
-        if(cep.length() != 8)
-            throw new CepInvalidoException();
-
-        //simulando um cep formatado
-        return "23.765-064";
-    }
-}
+//package modEstruturasExcepcionais;
+//
+//public class FormatadorCepExemplo {
+//
+//    public static void main(String[] args) {
+//        try {
+//            String cepFormatado = formatarCep("23765064");
+//            System.out.println(cepFormatado);
+//        } catch (CepInvalidoException e) {
+//            e.printStackTrace();
+//        }
+//    }
+//
+//
+//    public static void main(String[] args) {
+//        if(cep.length() != 8)
+//            throw new CepInvalidoException();
+//
+//        //simulando um cep formatado
+//        return "23.765-064";
+//    }
+//}
